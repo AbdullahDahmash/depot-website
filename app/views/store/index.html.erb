@@ -1,6 +1,7 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Your Pragmatic Catalog</h1>
+<h1>Your Pragmatic Catalog <small><%= pluralize @counter, "visit" %></small></h1>
+
 
 <% cache @products do %>
   <% @products.each do |product| %>
