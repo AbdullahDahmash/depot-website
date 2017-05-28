@@ -55,3 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # win gem
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
+# “Use jquery as the JavaScript library”
+
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
